@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-groq
+sqlalchemy
+python-dotenv
+pymysql
+fastapi 
+sqlalchemy
+PyJWT
+supabase
