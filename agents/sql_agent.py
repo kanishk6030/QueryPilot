@@ -108,12 +108,12 @@ agent_executor = AgentExecutor(
     verbose=True ## helps us to see the thought process of the agent
 )
 
-# Runnable with message history creation 
-agent_with_history = (
-    RunnableWithMessageHistory(
-        agent_executor,
-        get_session_history,
-        input_messages_key="input",
-        history_messages_key="chat_history"
-    )
-)
+# # Runnable with message history creation 
+# agent_with_history = (
+#     RunnableWithMessageHistory(
+#         agent_executor,
+#         get_session_history,
+#         input_messages_key="input",
+#         history_messages_key="chat_history"
+#     )
+# )
