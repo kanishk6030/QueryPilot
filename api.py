@@ -1,3 +1,5 @@
+import os
+
 from fastapi import FastAPI
 
 from database.db_factory import get_database
@@ -20,6 +22,12 @@ from services.connection_service import (
 )
 from services.history_service import get_user_history
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+FRONTEND_URL = os.getenv("FRONTEND_URL")
+
 
 app = FastAPI()
 
@@ -29,7 +37,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:8080",
         "http://localhost:3000",
-        "http://localhost:5173"
+        "http://localhost:5173",
+        FRONTEND_URL
     ],
     allow_credentials=True,
     allow_methods=["*"],
