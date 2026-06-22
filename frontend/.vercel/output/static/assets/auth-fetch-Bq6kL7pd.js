@@ -1,1 +1,0 @@
-import{t as e}from"./supabase-C5CAdaDC.js";async function t(t,n={}){let{data:{session:r}}=await e.auth.getSession(),i=new Headers(n.headers);return r?.access_token&&i.set(`Authorization`,`Bearer ${r.access_token}`),fetch(t,{...n,headers:i})}export{t};
