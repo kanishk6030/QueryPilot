@@ -78,7 +78,7 @@ def process_question(question: str,connection_id: str = None, user = None):
                 agent_executor.invoke(
                         {
                             "input": question,
-                            "chat_history": chat_history
+                            "chat_history": []
                         },
                         config={
                             "configurable": {
