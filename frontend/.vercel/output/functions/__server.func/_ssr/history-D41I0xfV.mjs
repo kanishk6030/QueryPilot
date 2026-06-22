@@ -1,5 +1,5 @@
-import { t as authFetch } from "./auth-fetch-CGJyLsn3.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/history-CfKlSGUV.js
+import { t as authFetch } from "./auth-fetch-DTXq4VkR.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/history-D41I0xfV.js
 function getVerificationStatus(verification) {
 	return (typeof verification === "string" ? verification : verification?.status)?.trim().toUpperCase() === "PASS" ? "PASS" : "FAIL";
 }

@@ -1,7 +1,7 @@
 import { r as __toESM } from "../_runtime.mjs";
-import { t as supabase } from "./supabase-B2ZeYKcf.mjs";
+import { t as supabase } from "./supabase-29OZpDu2.mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/AuthContext-CBh0WCTG.js
+//#region node_modules/.nitro/vite/services/ssr/assets/AuthContext-DMv9lDLK.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var signup = async (email, password, name) => {
 	return await supabase.auth.signUp({

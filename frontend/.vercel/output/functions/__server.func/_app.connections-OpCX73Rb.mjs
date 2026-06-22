@@ -5,15 +5,15 @@ import { n as cn, t as Button } from "./_ssr/button-DRsC1qZi.mjs";
 import { t as Input } from "./_ssr/input-DicJzR9-.mjs";
 import { A as ChevronRight, C as Ellipsis, D as Circle, M as Check, d as Plus, f as Plug, i as Trash2, n as X, r as Unplug } from "./_libs/lucide-react.mjs";
 import { a as DialogOverlay$1, c as DialogTrigger$1, i as DialogDescription$1, n as DialogClose, o as DialogPortal$1, r as DialogContent$1, s as DialogTitle$1, t as Dialog$1 } from "./_libs/@radix-ui/react-dialog+[...].mjs";
-import { t as authFetch } from "./_ssr/auth-fetch-CGJyLsn3.mjs";
+import { t as authFetch } from "./_ssr/auth-fetch-DTXq4VkR.mjs";
 import { n as toast } from "./_libs/sonner.mjs";
 import { a as Label2, c as Root2, d as SubTrigger2, f as Trigger, i as ItemIndicator2, l as Separator2, n as Content2, o as Portal2, r as Item2, s as RadioItem2, t as CheckboxItem2, u as SubContent2 } from "./_libs/@radix-ui/react-dropdown-menu+[...].mjs";
 import { t as Badge } from "./_ssr/badge-Cc0IblCb.mjs";
 import { a as SelectValue, i as SelectTrigger, n as SelectContent, r as SelectItem, t as Select } from "./_ssr/select-D74UZ8HR.mjs";
-import { n as fetchConnections, r as toDBKind, t as DBIcon } from "./_ssr/db-icon-Bsjxp3lv.mjs";
+import { n as fetchConnections, r as toDBKind, t as DBIcon } from "./_ssr/db-icon-BIhP_att.mjs";
 import { t as Label } from "./_ssr/label-B4PTMSG2.mjs";
 import { n as CardContent, t as Card } from "./_ssr/card-CfEwGGLW.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/_app.connections-B9zHAozJ.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_app.connections-OpCX73Rb.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var Dialog = Dialog$1;

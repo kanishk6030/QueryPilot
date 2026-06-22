@@ -4,13 +4,13 @@ import { l as require_jsx_runtime } from "./_libs/@radix-ui/react-arrow+[...].mj
 import { n as cn, t as Button } from "./_ssr/button-DRsC1qZi.mjs";
 import { D as Circle, N as ArrowUp, O as CircleCheck, S as FileSearch, T as Copy, a as Sparkles, i as Trash2, j as ChevronDown, l as Route, o as ShieldCheck, p as Play, v as LoaderCircle, w as Database } from "./_libs/lucide-react.mjs";
 import { n as CollapsibleTrigger$1, r as Root, t as CollapsibleContent$1 } from "./_libs/@radix-ui/react-collapsible+[...].mjs";
-import { t as authFetch } from "./_ssr/auth-fetch-CGJyLsn3.mjs";
+import { t as authFetch } from "./_ssr/auth-fetch-DTXq4VkR.mjs";
 import { n as toast } from "./_libs/sonner.mjs";
 import { t as Badge } from "./_ssr/badge-Cc0IblCb.mjs";
 import { a as SelectValue, i as SelectTrigger, n as SelectContent, r as SelectItem, t as Select } from "./_ssr/select-D74UZ8HR.mjs";
 import { a as TableHeader, i as TableHead, n as TableBody, o as TableRow, r as TableCell, t as Table } from "./_ssr/table-BQuBX6bn.mjs";
-import { n as fetchConnections, r as toDBKind, t as DBIcon } from "./_ssr/db-icon-Bsjxp3lv.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/_app.chat-7P5iiHYq.js
+import { n as fetchConnections, r as toDBKind, t as DBIcon } from "./_ssr/db-icon-BIhP_att.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/_app.chat-DCg7tKQk.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var Textarea = import_react.forwardRef(({ className, ...props }, ref) => {

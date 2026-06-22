@@ -3,11 +3,11 @@ import { u as require_react } from "./_libs/@floating-ui/react-dom+[...].mjs";
 import { l as require_jsx_runtime } from "./_libs/@radix-ui/react-arrow+[...].mjs";
 import { n as cn, t as Button } from "./_ssr/button-DRsC1qZi.mjs";
 import { t as Input } from "./_ssr/input-DicJzR9-.mjs";
-import { a as getDisplayName, i as fetchCurrentUser, n as AvatarFallback, o as getInitials, r as Separator, t as Avatar } from "./_ssr/me-DQY029T2.mjs";
+import { a as getDisplayName, i as fetchCurrentUser, n as AvatarFallback, o as getInitials, r as Separator, t as Avatar } from "./_ssr/me-Cb-6zzGE.mjs";
 import { t as Label } from "./_ssr/label-B4PTMSG2.mjs";
 import { a as CardTitle, i as CardHeader, n as CardContent, r as CardDescription, t as Card } from "./_ssr/card-CfEwGGLW.mjs";
 import { n as SwitchThumb, t as Switch$1 } from "./_libs/radix-ui__react-switch.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/_app.settings-DSpW8Me5.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_app.settings-DP-PMbV3.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var Switch = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Switch$1, {

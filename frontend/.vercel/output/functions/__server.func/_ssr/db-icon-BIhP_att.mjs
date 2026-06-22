@@ -1,6 +1,6 @@
 import { l as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
-import { t as authFetch } from "./auth-fetch-CGJyLsn3.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/db-icon-Bsjxp3lv.js
+import { t as authFetch } from "./auth-fetch-DTXq4VkR.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/db-icon-BIhP_att.js
 var import_jsx_runtime = require_jsx_runtime();
 function toDBKind(kind) {
 	if (kind === "mysql" || kind === "sqlite") return kind;

@@ -1,17 +1,17 @@
 import { r as __toESM } from "./_runtime.mjs";
 import { u as require_react } from "./_libs/@floating-ui/react-dom+[...].mjs";
-import { r as useAuth } from "./_ssr/AuthContext-CBh0WCTG.mjs";
+import { r as useAuth } from "./_ssr/AuthContext-DMv9lDLK.mjs";
 import { i as Slot, l as require_jsx_runtime } from "./_libs/@radix-ui/react-arrow+[...].mjs";
 import { t as cva } from "./_libs/class-variance-authority+clsx.mjs";
 import { n as cn, t as Button } from "./_ssr/button-DRsC1qZi.mjs";
 import { t as Input } from "./_ssr/input-DicJzR9-.mjs";
 import { a as Sparkles, b as History, g as LogOut, h as MessageSquare, m as PanelLeft, s as Settings, w as Database, y as LayoutDashboard } from "./_libs/lucide-react.mjs";
 import { a as SheetTitle, i as SheetHeader, n as SheetContent, r as SheetDescription, t as Sheet } from "./_ssr/sheet-BAnSRBdC.mjs";
-import { a as getDisplayName, i as fetchCurrentUser, n as AvatarFallback, o as getInitials, r as Separator, t as Avatar } from "./_ssr/me-DQY029T2.mjs";
+import { a as getDisplayName, i as fetchCurrentUser, n as AvatarFallback, o as getInitials, r as Separator, t as Avatar } from "./_ssr/me-Cb-6zzGE.mjs";
 import { _ as useNavigate, f as Outlet, g as Link, l as useRouterState } from "./_libs/@tanstack/react-router+[...].mjs";
 import { n as toast } from "./_libs/sonner.mjs";
 import { a as Trigger, i as Root3, n as Portal, r as Provider, t as Content2 } from "./_libs/radix-ui__react-tooltip.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/_app-BTLZGycI.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_app-gDXcymBo.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var MOBILE_BREAKPOINT = 768;

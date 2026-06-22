@@ -1,12 +1,12 @@
 import { r as __toESM } from "../_runtime.mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
-import { t as AuthProvider } from "./AuthContext-CBh0WCTG.mjs";
+import { t as AuthProvider } from "./AuthContext-DMv9lDLK.mjs";
 import { l as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
 import { c as HeadContent, d as createRouter, f as Outlet, g as Link, h as createRootRouteWithContext, m as createFileRoute, p as lazyRouteComponent, s as Scripts, v as useRouter } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as Toaster } from "../_libs/sonner.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-CgVomVYZ.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-BySeX3Tr.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var styles_default = "/assets/styles-oQYKTICx.css";
@@ -176,7 +176,7 @@ function RootComponent() {
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(AuthProvider, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Toaster$1, {})] })
 	});
 }
-var $$splitComponentImporter$7 = () => import("./auth-j1G0pxnS.mjs");
+var $$splitComponentImporter$7 = () => import("./auth-CgBEs6SD.mjs");
 var Route$7 = createFileRoute("/auth")({
 	head: () => ({ meta: [{ title: "Sign in — AI Database Copilot" }, {
 		name: "description",
@@ -184,9 +184,9 @@ var Route$7 = createFileRoute("/auth")({
 	}] }),
 	component: lazyRouteComponent($$splitComponentImporter$7, "component")
 });
-var $$splitComponentImporter$6 = () => import("../_app-BTLZGycI.mjs");
+var $$splitComponentImporter$6 = () => import("../_app-gDXcymBo.mjs");
 var Route$6 = createFileRoute("/_app")({ component: lazyRouteComponent($$splitComponentImporter$6, "component") });
-var $$splitComponentImporter$5 = () => import("./routes-C4TqNOZ5.mjs");
+var $$splitComponentImporter$5 = () => import("./routes-ojXqpiKH.mjs");
 var Route$5 = createFileRoute("/")({
 	head: () => ({ meta: [{ title: "AI Database Copilot - Chat with your data" }, {
 		name: "description",
@@ -194,27 +194,27 @@ var Route$5 = createFileRoute("/")({
 	}] }),
 	component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-var $$splitComponentImporter$4 = () => import("../_app.settings-DSpW8Me5.mjs");
+var $$splitComponentImporter$4 = () => import("../_app.settings-DP-PMbV3.mjs");
 var Route$4 = createFileRoute("/_app/settings")({
 	head: () => ({ meta: [{ title: "Settings - Copilot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-var $$splitComponentImporter$3 = () => import("../_app.history-BxVnz_Rr.mjs");
+var $$splitComponentImporter$3 = () => import("../_app.history-CIkjrq_c.mjs");
 var Route$3 = createFileRoute("/_app/history")({
 	head: () => ({ meta: [{ title: "History - Copilot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("../_app.dashboard-8DNPYMHE.mjs");
+var $$splitComponentImporter$2 = () => import("../_app.dashboard-CyevjJGj.mjs");
 var Route$2 = createFileRoute("/_app/dashboard")({
 	head: () => ({ meta: [{ title: "Dashboard - Copilot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("../_app.connections-B9zHAozJ.mjs");
+var $$splitComponentImporter$1 = () => import("../_app.connections-OpCX73Rb.mjs");
 var Route$1 = createFileRoute("/_app/connections")({
 	head: () => ({ meta: [{ title: "Connections — Copilot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("../_app.chat-7P5iiHYq.mjs");
+var $$splitComponentImporter = () => import("../_app.chat-DCg7tKQk.mjs");
 var Route = createFileRoute("/_app/chat")({
 	head: () => ({ meta: [{ title: "Chat — Copilot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter, "component")
