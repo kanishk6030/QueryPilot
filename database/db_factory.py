@@ -1,4 +1,4 @@
-from database.sqlite_manager import get_db
+# from database.sqlite_manager import get_db
 from database.mysql_manager import get_mysql_db
 
 def get_database(
@@ -8,7 +8,7 @@ def get_database(
 
     if db_type == "sqlite":
 
-        return get_db()
+        return ##get_db()
 
     elif db_type == "mysql":
 
