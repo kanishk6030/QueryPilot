@@ -1,5 +1,5 @@
 from langchain.tools import tool
-from database.sqlite_manager import get_db
+# from database.sqlite_manager import get_db
 import utils.request_context as rc
 
 @tool

@@ -14,10 +14,10 @@ from config.settings import get_reasoning_llm
 from langchain_classic.agents import create_tool_calling_agent
 from langchain_classic.agents import AgentExecutor
 
-from langchain_core.runnables.history import (
-    RunnableWithMessageHistory
-)
-from services.chat_history import get_session_history
+# from langchain_core.runnables.history import (
+#     RunnableWithMessageHistory
+# )
+# from services.chat_history import get_session_history
 
 load_dotenv()
 

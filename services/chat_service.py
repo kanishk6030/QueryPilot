@@ -119,11 +119,11 @@ def process_question(question: str,connection_id: str = None, user = None):
                 verification=context.verification
             )
 
-            history = get_session_history(
-                context.user_id
-            )
+            # history = get_session_history(
+            #     context.user_id
+            # )
 
-            print(history.messages)
+            # print(history.messages)
             return {
                 # "route": route,
                 "answer": context.answer,
