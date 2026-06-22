@@ -2,11 +2,11 @@ from streamlit import context, user
 
 from models.query_context import QueryContext
 
-from services.chat_history import get_session_history
+# from services.chat_history import get_session_history
 from services.connection_service import get_connection
 from services.history_service import save_query
 import utils.request_context as rc
-from agents.sql_agent import agent_executor , agent_with_history
+from agents.sql_agent import agent_executor 
 # from utils.question_classifier import classify_question
 from agents.general_chat import general_chat
 from utils.verification import verify_answer
@@ -75,7 +75,7 @@ def process_question(question: str,connection_id: str = None, user = None):
         # if route == "DATABASE":
 
             response = (
-                agent_with_history.invoke(
+                agent_executor.invoke(
                         {
                             "input": question,
                             "chat_history": chat_history
