@@ -1,5 +1,5 @@
 from langchain.tools import tool
-from database.sqlite_manager import get_db
+# from database.sqlite_manager import get_db
 from utils.sql_checker import review_sql_query
 from utils.sql_error_recovery import fix_sql_query
 import utils.request_context as rc
