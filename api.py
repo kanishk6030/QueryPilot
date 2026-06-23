@@ -1,6 +1,6 @@
 import os
 
-from fastapi import FastAPI
+from fastapi import FastAPI,Request,HTTPException
 
 from database.db_factory import get_database
 from services.chat_history_services import delete_chat_history, delete_chat_history, get_chat_history
@@ -44,6 +44,23 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.get("/api/cron")
+async def cron_handler(request: Request):
+    auth_header = request.headers.get("Authorization")
+    cron_secret = os.getenv("CRON_SECRET")
+
+    if auth_header != f"Bearer {cron_secret}":
+        raise HTTPException(status_code=401, detail="Unauthorized")
+
+    # Your scheduled task
+    print("Running scheduled cleanup...")
+
+    return {
+        "success": True,
+        "message": "Cron executed successfully"
+    }
+
 
 @app.get("/")
 def home():
